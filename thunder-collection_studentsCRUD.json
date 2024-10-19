@@ -1,0 +1,378 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "studentsCRUD",
+    "collectionId": "38883e51-3420-409f-9439-f6345ac01bc3",
+    "dateExported": "2024-10-19T18:22:44.992Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "22c8b89d-20c3-4963-a50f-fd6439c68989",
+            "colId": "38883e51-3420-409f-9439-f6345ac01bc3",
+            "containerId": "",
+            "name": "student post",
+            "url": "localhost:5000/api/students",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-10-19T17:55:11.919Z",
+            "modified": "2024-10-19T18:19:02.966Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json, text/plain, /"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMCwiaWF0IjoxNzE3OTI0NTg1LCJleHAiOjE3MTgzNTY1ODV9.ldx8oEPGoV6Cq2asei236qp2pAnMYprEiw0Mi3olwZY"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://localhost:5173"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://localhost:5173/"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "empty"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-site"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108"
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "sec-ch-ua-platform",
+                    "value": "macOS"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n     \"name\" : \"sagar\",\n     \"email\" : \"sagar@gmail.com\",\n     \"phone\" : \"123123123\",\n  \n    \n     \"marks\" : [\n       {\"subject\" : \"English\" , \"marks\" : 55 } ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f5a89cc0-2824-4aed-9e32-41ed54b37658",
+            "colId": "38883e51-3420-409f-9439-f6345ac01bc3",
+            "containerId": "",
+            "name": "student put",
+            "url": "localhost:5000/api/students/2",
+            "method": "PUT",
+            "sortNum": 15000,
+            "created": "2024-10-19T17:56:00.592Z",
+            "modified": "2024-10-19T18:19:57.896Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json, text/plain, /"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMCwiaWF0IjoxNzE3OTI0NTg1LCJleHAiOjE3MTgzNTY1ODV9.ldx8oEPGoV6Cq2asei236qp2pAnMYprEiw0Mi3olwZY"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://localhost:5173"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://localhost:5173/"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "empty"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-site"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108"
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "sec-ch-ua-platform",
+                    "value": "macOS"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\" : \"sagar\",\n    \"email\": \"sagar03@gmail.com\",\n    \"phone\" : \"123131231\",\n   \n     \"marks\" : [\n       {\"subject\" : \"English\" , \"marks\" : 55 } ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8e11fee5-73c5-475e-ad43-353c9a1efac7",
+            "colId": "38883e51-3420-409f-9439-f6345ac01bc3",
+            "containerId": "",
+            "name": "student get all",
+            "url": "localhost:5000/api/students?page=1&limit=10",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-10-19T17:55:19.470Z",
+            "modified": "2024-10-19T18:17:42.655Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json, text/plain, /"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMCwiaWF0IjoxNzE3OTI0NTg1LCJleHAiOjE3MTgzNTY1ODV9.ldx8oEPGoV6Cq2asei236qp2pAnMYprEiw0Mi3olwZY"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://localhost:5173"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://localhost:5173/"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "empty"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-site"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108"
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "sec-ch-ua-platform",
+                    "value": "macOS"
+                }
+            ],
+            "params": [
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                },
+                {
+                    "name": "limit",
+                    "value": "10",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "457682b3-14cc-4726-8c3f-e5ec1ac3270f",
+            "colId": "38883e51-3420-409f-9439-f6345ac01bc3",
+            "containerId": "",
+            "name": "student get single",
+            "url": "localhost:5000/api/students/fetch/2",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-10-19T17:55:53.303Z",
+            "modified": "2024-10-19T18:17:48.199Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json, text/plain, /"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMCwiaWF0IjoxNzE3OTI0NTg1LCJleHAiOjE3MTgzNTY1ODV9.ldx8oEPGoV6Cq2asei236qp2pAnMYprEiw0Mi3olwZY"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://localhost:5173"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://localhost:5173/"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "empty"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-site"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108"
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "sec-ch-ua-platform",
+                    "value": "macOS"
+                }
+            ]
+        },
+        {
+            "_id": "aa69a5f7-70b8-4e4f-ba8b-3f572b996707",
+            "colId": "38883e51-3420-409f-9439-f6345ac01bc3",
+            "containerId": "",
+            "name": "student get single delete",
+            "url": "localhost:5000/api/students/4",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-10-19T17:56:31.257Z",
+            "modified": "2024-10-19T17:58:44.189Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json, text/plain, /"
+                },
+                {
+                    "name": "Accept-Language",
+                    "value": "en-GB,en-US;q=0.9,en;q=0.8"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMCwiaWF0IjoxNzE3OTI0NTg1LCJleHAiOjE3MTgzNTY1ODV9.ldx8oEPGoV6Cq2asei236qp2pAnMYprEiw0Mi3olwZY"
+                },
+                {
+                    "name": "Connection",
+                    "value": "keep-alive"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Origin",
+                    "value": "http://localhost:5173"
+                },
+                {
+                    "name": "Referer",
+                    "value": "http://localhost:5173/"
+                },
+                {
+                    "name": "Sec-Fetch-Dest",
+                    "value": "empty"
+                },
+                {
+                    "name": "Sec-Fetch-Mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "Sec-Fetch-Site",
+                    "value": "same-site"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
+                },
+                {
+                    "name": "sec-ch-ua",
+                    "value": "Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108"
+                },
+                {
+                    "name": "sec-ch-ua-mobile",
+                    "value": "?0"
+                },
+                {
+                    "name": "sec-ch-ua-platform",
+                    "value": "macOS"
+                }
+            ]
+        }
+    ],
+    "ref": "NppUfIRHMfNT082p67-63PDSvgZrMCTb9XIbk-aT865QYHZ70mIzIl_eQiRh-xxr5yiu1-Ozi3nNfWU28cE41w"
+}
