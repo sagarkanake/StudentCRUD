@@ -32,6 +32,7 @@ const updateStudentValidationSchema = {
         id: Joi.number().integer().required()
     }),
     body: Joi.object().keys({
+        student_id: Joi.number().required(),
         name: Joi.string().required(),
         email: Joi.string().email().required(),
         phone: Joi.string().required(),
@@ -39,7 +40,8 @@ const updateStudentValidationSchema = {
             .items(
                 Joi.object().keys({
                     subject: Joi.string().required(),
-                    marks: Joi.number().min(0).max(100).required()
+                    marks: Joi.number().min(0).max(100).required(),
+                    mark_id: Joi.number().min(0).max(100)
                 })
             )
             .max(10)
